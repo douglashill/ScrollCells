@@ -14,6 +14,7 @@
 		A58F0F7F1517DAF900C26D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F0F7E1517DAF900C26D55 /* main.m */; };
 		A58F0F831517DAF900C26D55 /* ScrollCellsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */; };
 		A58F0F8B1517DB5E00C26D55 /* ScrollCellsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F0F8A1517DB5E00C26D55 /* ScrollCellsTableViewController.m */; };
+		A58F0F8D1517DE6C00C26D55 /* ScrollingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A58F0F8C1517DE6C00C26D55 /* ScrollingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollCellsAppDelegate.m; sourceTree = "<group>"; };
 		A58F0F891517DB5E00C26D55 /* ScrollCellsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollCellsTableViewController.h; sourceTree = "<group>"; };
 		A58F0F8A1517DB5E00C26D55 /* ScrollCellsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollCellsTableViewController.m; sourceTree = "<group>"; };
+		A58F0F8C1517DE6C00C26D55 /* ScrollingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */,
 				A58F0F891517DB5E00C26D55 /* ScrollCellsTableViewController.h */,
 				A58F0F8A1517DB5E00C26D55 /* ScrollCellsTableViewController.m */,
+				A58F0F8C1517DE6C00C26D55 /* ScrollingCell.xib */,
 				A58F0F791517DAF900C26D55 /* Supporting Files */,
 			);
 			path = ScrollCells;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A58F0F7D1517DAF900C26D55 /* InfoPlist.strings in Resources */,
+				A58F0F8D1517DE6C00C26D55 /* ScrollingCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

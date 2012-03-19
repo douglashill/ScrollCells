@@ -32,7 +32,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-	return 5;
+	return 10;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
@@ -41,16 +41,26 @@
 	static NSString *CellIdentifier = @"Cell";
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (!cell) {
-		cell = [[[UITableViewCell alloc] init] autorelease];
+		NSArray *nibContents = [[NSBundle mainBundle] loadNibNamed:@"ScrollingCell"
+															 owner:self
+														   options:nil];
+		cell = [nibContents objectAtIndex:0];
+		UIView *content = [nibContents objectAtIndex:1];
+		UIScrollView *scrollView = (UIScrollView *)[cell viewWithTag:1];
+		[scrollView addSubview:content];
+		[scrollView setContentSize:[content frame].size];
 	}
 	
-	if ([indexPath row] % 2 == 0) {
-		[[cell contentView] setBackgroundColor:[UIColor yellowColor]];
-	} else {
-		[[cell contentView] setBackgroundColor:[UIColor redColor]];
-	}
 	
 	return cell;
+}
+
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 
