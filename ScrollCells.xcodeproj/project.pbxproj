@@ -13,6 +13,7 @@
 		A58F0F7D1517DAF900C26D55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A58F0F7B1517DAF900C26D55 /* InfoPlist.strings */; };
 		A58F0F7F1517DAF900C26D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F0F7E1517DAF900C26D55 /* main.m */; };
 		A58F0F831517DAF900C26D55 /* ScrollCellsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */; };
+		A58F0F8B1517DB5E00C26D55 /* ScrollCellsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F0F8A1517DB5E00C26D55 /* ScrollCellsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		A58F0F721517DAF900C26D55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A58F0F741517DAF900C26D55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A58F0F761517DAF900C26D55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A58F0F7A1517DAF900C26D55 /* ScrollCells-Info.plist */ = {isa = PBXFileReference; path = "ScrollCells-Info.plist"; sourceTree = "<group>"; };
+		A58F0F7A1517DAF900C26D55 /* ScrollCells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollCells-Info.plist"; sourceTree = "<group>"; };
 		A58F0F7C1517DAF900C26D55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A58F0F7E1517DAF900C26D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A58F0F801517DAF900C26D55 /* ScrollCells-Prefix.pch */ = {isa = PBXFileReference; path = "ScrollCells-Prefix.pch"; sourceTree = "<group>"; };
-		A58F0F811517DAF900C26D55 /* ScrollCellsAppDelegate.h */ = {isa = PBXFileReference; path = ScrollCellsAppDelegate.h; sourceTree = "<group>"; };
+		A58F0F801517DAF900C26D55 /* ScrollCells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollCells-Prefix.pch"; sourceTree = "<group>"; };
+		A58F0F811517DAF900C26D55 /* ScrollCellsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollCellsAppDelegate.h; sourceTree = "<group>"; };
 		A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollCellsAppDelegate.m; sourceTree = "<group>"; };
+		A58F0F891517DB5E00C26D55 /* ScrollCellsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollCellsTableViewController.h; sourceTree = "<group>"; };
+		A58F0F8A1517DB5E00C26D55 /* ScrollCellsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollCellsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				A58F0F811517DAF900C26D55 /* ScrollCellsAppDelegate.h */,
 				A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */,
+				A58F0F891517DB5E00C26D55 /* ScrollCellsTableViewController.h */,
+				A58F0F8A1517DB5E00C26D55 /* ScrollCellsTableViewController.m */,
 				A58F0F791517DAF900C26D55 /* Supporting Files */,
 			);
 			path = ScrollCells;
@@ -154,6 +159,7 @@
 			files = (
 				A58F0F7F1517DAF900C26D55 /* main.m in Sources */,
 				A58F0F831517DAF900C26D55 /* ScrollCellsAppDelegate.m in Sources */,
+				A58F0F8B1517DB5E00C26D55 /* ScrollCellsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
