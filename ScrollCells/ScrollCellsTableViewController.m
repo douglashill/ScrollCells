@@ -32,7 +32,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-	return 10;
+	return 17;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
@@ -51,7 +51,7 @@
 		[scrollView setContentSize:[content frame].size];
 	}
 	
-	
+	[(UIScrollView *)[cell viewWithTag:1] setContentOffset:CGPointZero];
 	return cell;
 }
 
