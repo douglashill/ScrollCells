@@ -37,10 +37,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A578079C1927CE6E00F1BA99 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A58F0F7E1517DAF900C26D55 /* main.m */,
+				A58F0F811517DAF900C26D55 /* ScrollCellsAppDelegate.h */,
+				A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */,
+				A58F0F891517DB5E00C26D55 /* ScrollCellsTableViewController.h */,
+				A58F0F8A1517DB5E00C26D55 /* ScrollCellsTableViewController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A578079D1927CE7100F1BA99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A58F0F8C1517DE6C00C26D55 /* ScrollingCell.xib */,
+				A58F0F7A1517DAF900C26D55 /* ScrollCells-Info.plist */,
+				A578079A1927A9BB00F1BA99 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A58F0F631517DAF900C26D55 = {
 			isa = PBXGroup;
 			children = (
-				A58F0F781517DAF900C26D55 /* ScrollCells */,
+				A578079C1927CE6E00F1BA99 /* Source */,
+				A578079D1927CE7100F1BA99 /* Resources */,
 				A58F0F6F1517DAF900C26D55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,29 +74,6 @@
 				A58F0F6E1517DAF900C26D55 /* ScrollCells.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A58F0F781517DAF900C26D55 /* ScrollCells */ = {
-			isa = PBXGroup;
-			children = (
-				A58F0F811517DAF900C26D55 /* ScrollCellsAppDelegate.h */,
-				A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */,
-				A58F0F891517DB5E00C26D55 /* ScrollCellsTableViewController.h */,
-				A58F0F8A1517DB5E00C26D55 /* ScrollCellsTableViewController.m */,
-				A58F0F8C1517DE6C00C26D55 /* ScrollingCell.xib */,
-				A578079A1927A9BB00F1BA99 /* Images.xcassets */,
-				A58F0F791517DAF900C26D55 /* Supporting Files */,
-			);
-			path = ScrollCells;
-			sourceTree = "<group>";
-		};
-		A58F0F791517DAF900C26D55 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A58F0F7A1517DAF900C26D55 /* ScrollCells-Info.plist */,
-				A58F0F7E1517DAF900C26D55 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +197,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "ScrollCells/ScrollCells-Info.plist";
+				INFOPLIST_FILE = "Resources/ScrollCells-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -209,7 +209,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "ScrollCells/ScrollCells-Info.plist";
+				INFOPLIST_FILE = "Resources/ScrollCells-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
