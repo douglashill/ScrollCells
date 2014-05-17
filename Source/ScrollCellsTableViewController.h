@@ -1,9 +1,7 @@
 //
 //  ScrollCellsTableViewController.h
-//  ScrollCells
-//
-//  Created by Douglas Hill on 19/03/2012.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Douglas Hill, March 2012
+//  https://github.com/douglashill/ScrollCells
 //
 
 #import <UIKit/UIKit.h>

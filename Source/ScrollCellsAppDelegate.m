@@ -1,8 +1,7 @@
 //
 //  ScrollCellsAppDelegate.m
-//  ScrollCells
-//
-//  Created by Douglas Hill on 19/03/2012.
+//  Douglas Hill, March 2012
+//  https://github.com/douglashill/ScrollCells
 //
 
 #import "ScrollCellsAppDelegate.h"
