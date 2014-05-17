@@ -21,7 +21,6 @@
 		A58F0F7A1517DAF900C26D55 /* ScrollCells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollCells-Info.plist"; sourceTree = "<group>"; };
 		A58F0F7C1517DAF900C26D55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A58F0F7E1517DAF900C26D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A58F0F801517DAF900C26D55 /* ScrollCells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollCells-Prefix.pch"; sourceTree = "<group>"; };
 		A58F0F811517DAF900C26D55 /* ScrollCellsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollCellsAppDelegate.h; sourceTree = "<group>"; };
 		A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollCellsAppDelegate.m; sourceTree = "<group>"; };
 		A58F0F891517DB5E00C26D55 /* ScrollCellsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollCellsTableViewController.h; sourceTree = "<group>"; };
@@ -76,7 +75,6 @@
 				A58F0F7A1517DAF900C26D55 /* ScrollCells-Info.plist */,
 				A58F0F7B1517DAF900C26D55 /* InfoPlist.strings */,
 				A58F0F7E1517DAF900C26D55 /* main.m */,
-				A58F0F801517DAF900C26D55 /* ScrollCells-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -214,8 +212,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScrollCells/ScrollCells-Prefix.pch";
 				INFOPLIST_FILE = "ScrollCells/ScrollCells-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -228,8 +224,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScrollCells/ScrollCells-Prefix.pch";
 				INFOPLIST_FILE = "ScrollCells/ScrollCells-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
