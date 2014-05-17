@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A578079B1927A9BB00F1BA99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A578079A1927A9BB00F1BA99 /* Images.xcassets */; };
-		A58F0F7D1517DAF900C26D55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A58F0F7B1517DAF900C26D55 /* InfoPlist.strings */; };
 		A58F0F7F1517DAF900C26D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F0F7E1517DAF900C26D55 /* main.m */; };
 		A58F0F831517DAF900C26D55 /* ScrollCellsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */; };
 		A58F0F8B1517DB5E00C26D55 /* ScrollCellsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F0F8A1517DB5E00C26D55 /* ScrollCellsTableViewController.m */; };
@@ -19,7 +18,6 @@
 		A578079A1927A9BB00F1BA99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A58F0F6E1517DAF900C26D55 /* ScrollCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58F0F7A1517DAF900C26D55 /* ScrollCells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollCells-Info.plist"; sourceTree = "<group>"; };
-		A58F0F7C1517DAF900C26D55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A58F0F7E1517DAF900C26D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A58F0F811517DAF900C26D55 /* ScrollCellsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollCellsAppDelegate.h; sourceTree = "<group>"; };
 		A58F0F821517DAF900C26D55 /* ScrollCellsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollCellsAppDelegate.m; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				A58F0F7A1517DAF900C26D55 /* ScrollCells-Info.plist */,
-				A58F0F7B1517DAF900C26D55 /* InfoPlist.strings */,
 				A58F0F7E1517DAF900C26D55 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -131,7 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A578079B1927A9BB00F1BA99 /* Images.xcassets in Resources */,
-				A58F0F7D1517DAF900C26D55 /* InfoPlist.strings in Resources */,
 				A58F0F8D1517DE6C00C26D55 /* ScrollingCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,17 +146,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A58F0F7B1517DAF900C26D55 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A58F0F7C1517DAF900C26D55 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A58F0F841517DAF900C26D55 /* Debug */ = {
